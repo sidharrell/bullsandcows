@@ -4,20 +4,24 @@
 using namespace std;
 
 void PrintIntro();
+string GetGuess();
 
 int main() {
 
 	PrintIntro();
 
-	// get a guess from the player
-	cout << "Enter your guess: ";
-	string Guess = "";
-	getline (cin, Guess);
-
-	cout << "Your guess was: " << Guess << endl;
+	cout << "Your guess was: " << GetGuess() << endl;
 
 	// repeat the guess back to them
 	return 0;
+}
+
+string GetGuess() {
+	// get a guess from the player
+	cout << "Enter your guess: ";
+	string Guess = "";
+	getline(cin, Guess);
+	return Guess;
 }
 
 void PrintIntro() {
