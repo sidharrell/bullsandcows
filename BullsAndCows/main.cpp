@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+
 using namespace std;
 
 int main() {
@@ -11,6 +13,9 @@ int main() {
 
 	// get a guess from the player
 	string Guess = "";
+	cin >> Guess;
+
+	cout << "Your guess was: " << Guess << endl;
 
 	// repeat the guess back to them
 	return 0;
