@@ -10,7 +10,10 @@ int main() {
 
 	PrintIntro();
 
-	cout << "Your guess was: " << GetGuess() << endl;
+	for (int count = 1; count <= 5; count++) {
+		cout << "Your guess was: " << GetGuess() << endl;
+		cout << endl;
+	}
 
 	return 0;
 }
