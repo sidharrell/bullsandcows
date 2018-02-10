@@ -12,7 +12,6 @@ int main() {
 
 	cout << "Your guess was: " << GetGuess() << endl;
 
-	// repeat the guess back to them
 	return 0;
 }
 
