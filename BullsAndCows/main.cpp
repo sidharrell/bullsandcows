@@ -12,8 +12,9 @@ int main() {
 	cout << " letter isogram I'm thinking of?\n";
 
 	// get a guess from the player
+	cout << "Enter your guess: ";
 	string Guess = "";
-	cin >> Guess;
+	getline (cin, Guess);
 
 	cout << "Your guess was: " << Guess << endl;
 
