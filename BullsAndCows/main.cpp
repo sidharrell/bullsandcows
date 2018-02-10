@@ -10,6 +10,7 @@ int main() {
 	cout << " letter isogram I'm thinking of?\n";
 
 	// get a guess from the player
+	string Guess = "";
 
 	// repeat the guess back to them
 	return 0;
