@@ -1,5 +1,7 @@
 #include <iostream>
+using namespace std;
+
 int main() {
-	std::cout << "Hello World!";
+	cout << "Welcome to Bulls and Cows" << endl;
 	return 0;
 }
