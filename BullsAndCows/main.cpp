@@ -5,17 +5,21 @@ using namespace std;
 
 void PrintIntro();
 string GetGuess();
+void PlayGame();
 
 int main() {
 
 	PrintIntro();
+	PlayGame();
 
+	return 0;
+}
+
+void PlayGame() {
 	for (int count = 1; count <= 5; count++) {
 		cout << "Your guess was: " << GetGuess() << endl;
 		cout << endl;
 	}
-
-	return 0;
 }
 
 string GetGuess() {
