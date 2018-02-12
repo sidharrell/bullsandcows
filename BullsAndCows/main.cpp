@@ -10,16 +10,14 @@ bool AskToPlayAgain();
 
 int main() {
 	PrintIntro();
-	PlayGame();
-	AskToPlayAgain();
+	do {
+		PlayGame();
+	} while (AskToPlayAgain());
 	return 0;
 }
 
 void PlayGame() {
-	for (int count = 1; count <= 5; count++) {
 		cout << "Your guess was: " << GetGuess() << endl;
-		cout << endl;
-	}
 }
 
 bool AskToPlayAgain() {
