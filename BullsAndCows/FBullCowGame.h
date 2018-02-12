@@ -1,9 +1,10 @@
 #pragma once
 class FBullCowGame {
 public:
+	FBullCowGame();
 	void Reset();
-	int GetMaxTries();
-	int GetCurrentTry();
+	int GetMaxTries() const;
+	int GetCurrentTry() const;
 
 private:
 	int MyCurrentTry;
