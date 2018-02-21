@@ -21,6 +21,8 @@ void PlayGame() {
 	FBullCowGame BCGame;
 
 	std::cout << "Your guess was: " << GetGuess() << std::endl;
+
+	// TODO summarize game
 }
 
 bool AskToPlayAgain() {
